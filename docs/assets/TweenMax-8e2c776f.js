@@ -4031,7 +4031,7 @@ version 0.6.9
 			);
 
 	}
-	`},DT={x:20,y:500,z:400,r:0};let Tn,Sf=!0,qa=window.scrollY;new i0;new i0;let bf=Math.max(document.body.scrollHeight,document.body.offsetHeight,document.documentElement.clientHeight,document.documentElement.scrollHeight,document.documentElement.offsetHeight);new CustomEvent("showpropertyevent",{detail:{propertyid:null}});const NT=function(){return Tn=e1({props:[]},{properties:[]}),Tn.component("property",{props:["propertyData"],data(){return{}},created(){},mounted(){},methods:{getImageSrc(){return"./assets/images/"+this.propertyData.imagename},getColorText(){const n=this.propertyData.color.split(",").length;return n==1?"1 Colour":n+" Colours"},showProperty(){window.location.href="/MyHome_realestate/propertyviewer.html?propertyid="+this.propertyData.id}},template:`
+	`},DT={x:20,y:500,z:400,r:0};let Tn,Sf=!0,qa=window.scrollY;new i0;new i0;let bf=Math.max(document.body.scrollHeight,document.body.offsetHeight,document.documentElement.clientHeight,document.documentElement.scrollHeight,document.documentElement.offsetHeight);new CustomEvent("showpropertyevent",{detail:{propertyid:null}});const NT=function(){return Tn=e1({props:[]},{properties:[]}),Tn.component("property",{props:["propertyData"],data(){return{}},created(){},mounted(){},methods:{getImageSrc(){return"./assets/images/"+this.propertyData.imagename},getColorText(){const n=this.propertyData.color.split(",").length;return n==1?"1 Colour":n+" Colours"},showProperty(){window.location.href="/MyHome-realestate/propertyviewer.html?propertyid="+this.propertyData.id}},template:`
             <div class="propertyContanier" :style="{'height': tileh, 'width': tilew, 'margin-right':rightmargin}">
                 <div class="propertyImageContainer" @click="showProperty()">
                     <img class="propertyImage" :src="getImageSrc()"/>
@@ -4126,11 +4126,11 @@ version 0.6.9
                 <nav id="navright" class="nav">
                     <ul class="slider-ul">
                         <li class="slider-li">
-                            <a class="sliderA is-active" href="/MyHome_realestate/vtour.html"><span 
+                            <a class="sliderA is-active" href="/MyHome-realestate/vtour.html"><span 
                             style="color:#d5003b" class="navSpan">Virtual Tour</span></a>
                         </li>
                         <li class="slider-li">
-                            <a class="sliderA is-active" href="/MyHome_realestate/index.html"><span class="navSpan">Home</span></a>
+                            <a class="sliderA is-active" href="/MyHome-realestate/index.html"><span class="navSpan">Home</span></a>
                         </li>
                         <li class="slider-li">
                                 <a class="sliderA" href="#"><span class="navSpan">About</span></a>
@@ -4272,11 +4272,11 @@ version 0.6.9
             <nav id="navright" class="nav">
                 <ul class="slider-ul">
                     <li class="slider-li">
-                            <a class="sliderA is-active" href="/MyHome_realestate/vtour.html"><span 
+                            <a class="sliderA is-active" href="/MyHome-realestate/vtour.html"><span 
                             style="color:#d5003b" class="navSpan">Virtual Tour</span></a>
                     </li>
                     <li class="slider-li">
-                    <a class="sliderA is-active" href="/MyHome_realestate/index.html"><span class="navSpan">Home</span></a>
+                    <a class="sliderA is-active" href="/MyHome-realestate/index.html"><span class="navSpan">Home</span></a>
                     </li>
                     <li class="slider-li">
                             <a class="sliderA" href="#"><span class="navSpan">About</span></a>
